@@ -7,7 +7,7 @@ class Article {
 	protected $date;
 	protected $category;
 	protected $picture;
-	protected $id_auteur;
+	protected $id_author;
 	protected $intro;
 
 	public function __construct() {
@@ -36,8 +36,8 @@ class Article {
 	public function getPicture() {
 		return $this->picture;
 	}
-	public function getIdAuteur() {
-		return $this->id_auteur;
+	public function getIdAuthor() {
+		return $this->id_author;
 	}
 	public function getIntro() {
 		return $this->intro;
@@ -65,8 +65,8 @@ class Article {
 	public function setPicture($picture) {
 		$this->picture = $picture;
 	}
-	public function setIdAuteur($id_auteur) {
-		$this->id_auteur = $id_auteur;
+	public function setIdAuthor($id_author) {
+		$this->id_author = $id_author;
 	}
 	public function setIntro($intro) {
 		$this->intro = $intro;
